@@ -7,14 +7,14 @@
   "module": "./dist/react-jacdac.module.js",
   "unpkg": "./dist/react-jacdac.umd.js",
   "types": "./dist/index.d.ts",
-  "author": "Microsoft Corporation",
+  "author": "Jacdac Organization",
   "files": [
     "dist",
     "src"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/react-jacdac.git"
+    "url": "https://github.com/jacdac/react-jacdac.git"
   },
   "license": "MIT",
   "engines": {
