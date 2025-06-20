@@ -1,12 +1,12 @@
 # React-Jacdac
 
-A library of hooks and context for [Jacdac](https://aka.ms/jacdac).
+A library of hooks and context for [Jacdac](https://jacdac.github.io/jacdac-docs/).
 React with hooks support required.
 
 **Jacdac** is a plug-and-play hardware/software stack
 for **microcontrollers** and their peripherals (sensors/actuators),
 with applications to rapid prototyping, making, and physical computing.
--   **[Jacdac Protocol Documentation](https://aka.ms/jacdac/)**
+-   **[Jacdac Protocol Documentation](https://jacdac.github.io/jacdac-docs/reference/)**
 -   **[Documentation](https://jacdac.github.io/jacdac-docs/clients/javascript/react/)**
 -   **[API Reference](https://jacdac.github.io/react-jacdac/)**
 -   Discussions at https://github.com/jacdac/jacdac/discussions
