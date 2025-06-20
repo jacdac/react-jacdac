@@ -27,11 +27,11 @@ jobs:
             - run: yarn prettier
             - run: yarn build
             - run: yarn docs
-            - run: npx semantic-release
-              if: ${{ github.ref == 'refs/heads/main' }}
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                  NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+            #- run: npx semantic-release
+            #  if: ${{ github.ref == 'refs/heads/main' }}
+            #  env:
+            #      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
             - name: github pages
               uses: peaceiris/actions-gh-pages@v3
               if: ${{ github.ref == 'refs/heads/main' }}
