@@ -26,21 +26,12 @@
     "watch": "microbundle --jsx React.createElement watch",
     "docs": "node node_modules/typedoc/bin/typedoc",
     "docs:watch": "node node_modules/typedoc/bin/typedoc --watch",
-    "docs:server": "cd docs && npx live-server --port=8082",
-    "storybook": "start-storybook -p 6006"
+    "docs:server": "cd docs && npx live-server --port=8082"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@storybook/addon-actions": "^6.5.16",
-    "@storybook/addon-essentials": "^6.5.16",
-    "@storybook/addon-interactions": "^6.5.4",
-    "@storybook/addon-links": "^6.5.16",
-    "@storybook/builder-webpack4": "^6.5.16",
-    "@storybook/manager-webpack4": "^6.5.16",
-    "@storybook/react": "^6.5.16",
-    "@storybook/testing-library": "^0.0.13",
     "@types/node": "^18.11.19",
     "@types/react": "^18.0.27",
     "@types/use-sync-external-store": "^0.0.3",
@@ -54,8 +45,8 @@
     "eslint-plugin-react": "^7.32.2",
     "microbundle": "^0.15.1",
     "prettier": "^2.8.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "typedoc": "^0.23.24",
     "typescript": "^4.9.5"
   },
