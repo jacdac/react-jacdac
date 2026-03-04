@@ -31,10 +31,11 @@ export function useEventRaised<TEventSource extends IEventSource, TValue>(
         }),
         [node, ...(deps || [])]
     )
-    return useSyncExternalStoreWithSelector(
+    return subscription.getSnapshot()
+    useSyncExternalStoreWithSelector(
         subscription.subscribe,
         subscription.getSnapshot,
-        undefined,
+        () => { return { } as TValue },
         subscription.selector,
         subscription.isEqual
     )
