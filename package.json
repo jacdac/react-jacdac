@@ -22,7 +22,7 @@
   },
   "scripts": {
     "prettier": "prettier --write src/**/*.ts",
-    "build": "microbundle --jsx React.createElement",
+    "build": "microbundle --jsx React.createElement --external react,react-dom",
     "watch": "microbundle --jsx React.createElement watch",
     "docs": "node node_modules/typedoc/bin/typedoc",
     "docs:watch": "node node_modules/typedoc/bin/typedoc --watch",
